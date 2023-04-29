@@ -1,4 +1,4 @@
-FROM nginx:stable-alpine
+FROM --platform=linux/amd64 nginx:stable-alpine
 
 LABEL "tech.pressanykey"="Press Any Key"
 LABEL version="1.0"
