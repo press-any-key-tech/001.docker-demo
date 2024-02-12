@@ -1106,17 +1106,6 @@ Yo suelo trabajar también con un proveedor cloud llamado digital Ocean que disp
 
 Es tan simple como crear una nueva App, especificar dónde está el código a ejecutar (o bien en un repositorio de código o bien en un Container Registry) y configurarla.
 
----
-
-Voy a indicarle a Digital Oceanq ue mi aplicación es un contenedor que está en Docker hub.
-
-Además he de cambiar varias cosas:
-
-- He de cambiar el puerto, ya que mi contenedor usa el puerto 80.
-- Y me toca cmabiar la ruta y especificar root, es decir, una barra, así no tendre´q ue especificar un directorio cuando abra mi navegador.
-
----
-
 Voy a indicarle a Digital Ocean que mi aplicación está en Github. Tengo que cambiar algunas cosas:
 
 - Para emepezar he de borrar el sitio estático que me quiere crear, ya que ha detectado que existen ficheros html en una carpeta.
